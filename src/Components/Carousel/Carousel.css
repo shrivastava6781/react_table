@@ -1,0 +1,112 @@
+.carousel-box{
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+}
+.carousel-container{
+    position: relative;
+    width: fit-content;
+    height: max-content;
+}
+.image-container{
+    width: 500px;
+    border: 1px solid grey;
+    margin:auto;
+    display: flex;
+    overflow: hidden;
+    z-index: 100;
+}
+.carousel-image{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+.carousel-arrow{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    font-size: 32px;
+    border-radius: 50%;
+   display: flex;   
+   align-items: center;
+   justify-content: center;
+   box-shadow: 0 0 5px 2px gray;
+   top: 50%;
+   color: white;
+   cursor: pointer;
+}
+.carousel-left-arrow{
+   left: 0%;
+   transform: translate(calc(-50% + 30px),-50%);
+}
+.carousel-right-arrow{
+    left: 100%;
+    transform: translate(calc(-50% - 30px),-50%);
+}
+.carousel-save-btn{
+    color: #0CA678;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0px;
+    border: 1px solid #0CA678;
+    background-color: #fff;
+}
+.carousel-save-btn:hover{
+    background: #0CA678;
+    color: white;
+}
+.carousel-circle-container{
+    height: 10px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(0%,-100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.carousel-circle{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+.carousel-circle:hover{
+    border-radius: 10%;
+    height: 10px;
+}
+.carousel-circle-active{
+    border-radius: 10%;
+    height: 10px;
+}
+.carousel-del-btn{
+    color: #FA5252;
+    border:1px solid #FA5252;
+}
+.carousel-del-btn:hover{
+    color: white;
+    background-color: #FA5252;
+}
+.carousel-btn-container{
+    display: flex;
+    padding: 0px 10px;
+    gap: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+.carousel-image-width-100{
+    width: 100%;
+}
+.carousel-image-width-90{
+    width: 90%;
+}

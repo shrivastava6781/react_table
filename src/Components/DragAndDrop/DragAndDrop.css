@@ -1,0 +1,22 @@
+.drag-n-drop-container{
+    border: 3px solid grey;
+    border-style: dashed;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.drag-drop-input{
+    display: none;
+}
+.drap-n-drop-input-label{
+    width: 100%;
+    text-align: center;
+}
+.drag-input-container-active{
+    border-color: #3BC9DB;
+}
+.drag-input-label-active{
+    color: #3BC9DB;
+}
